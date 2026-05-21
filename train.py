@@ -9,7 +9,7 @@ import os
 os.makedirs("data", exist_ok=True)
 os.makedirs("model", exist_ok=True)
 
-# ---- Generate synthetic data ----
+# Generate synthetic data
 np.random.seed(42)
 n = 300
 
@@ -33,7 +33,7 @@ df = pd.DataFrame({
 df.to_csv("data/students.csv", index=False)
 print(f"Dataset saved  →  data/students.csv  ({len(df)} rows)")
 
-# ---- Train ----
+# Train
 X = df[["study_hours", "attendance", "assignments"]]
 y = df["score"]
 
