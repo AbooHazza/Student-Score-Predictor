@@ -24,7 +24,7 @@ student-score-predictor/
 pip install -r requirements.txt
 
 # 2. Train the model (generates data + saves model)
-python train.py
+py train.py
 
 # 3. Run the app
 py -m streamlit run app.py
