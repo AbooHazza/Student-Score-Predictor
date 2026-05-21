@@ -16,7 +16,7 @@ def load_model():
 
 model = load_model()
 
-# ---- UI ----
+# UI
 st.title("🎓 Student Score Predictor")
 st.markdown("Predict a student's final score based on study habits.")
 
