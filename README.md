@@ -27,7 +27,7 @@ pip install -r requirements.txt
 python train.py
 
 # 3. Run the app
-streamlit run app.py
+py -m streamlit run app.py
 ```
 
 ## Model
